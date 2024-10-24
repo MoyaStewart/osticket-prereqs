@@ -47,6 +47,14 @@ From Windows START menu enable IIS with CGI by opening Control Panel> Programs> 
 <img src="https://i.imgur.com/C9B6Bfp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once PHP manager has been successfully installed, open up Windows (C:) and create a folder named PHP. From within the osTicket folder extract file php-7.3.8-nts-Win32-VC15-x86 into the new PHP folder you just created. From within the osTicket folder install VC_redist.x86 and mysql-5.5.62. Be sure to follow prompts and record created username and password on notepad. 
+Once PHP manager has been successfully installed, open up Windows (C:) and create a folder named PHP. From within the osTicket folder extract file php-7.3.8-nts-Win32-VC15-x86 into the new PHP folder you just created. From within the osTicket folder install VC_redist.x86 and mysql-5.5.62. Be sure to follow prompts and record created username and password on notepad.After installation is complete open IIS as admin and register PHP. Open PHP Manger > Register New PHP Version > C:\PHP\php-cgi.exe. Reload/Refresh IIS form within IIS.  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/h6doRnX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From within the osTicket Installation folder exttract osTicket-v1.15.8 and copy it into C:\inetpub\wwwroot. From within the "wwwroot" folder rename "upload" folder to "osTicket". Be sure to avoid spelling or spacing mistakes when renaming. Restart IIS server.
 </p>
 <br />
