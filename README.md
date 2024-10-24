@@ -31,22 +31,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/fRx4VaXl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After creating your Windows VM in Azure, remote desktop into your virtual machine using the Public IP address given to your VM after creation, and the credentials you assigned during setup. (ProTip: Open Notepad to keep track of the different login credentials you create.) Once inside your VM, from Microsoft Edge web browser download <a href= https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD>osTicket-Installation-Files.zip</a>. 
+After creating your Windows VM in Azure, remote desktop into your virtual machine using the Public IP address given to your VM after creation, and the credentials you assigned during setup. (ProTip: Open Notepad to keep track of the different login credentials you create.) Once inside your VM, from Microsoft Edge web browser download <a href= https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD>osTicket-Installation-Files.zip</a>. After installation extract the file to your desktop.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/71ti5Dg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From Windows START menu enable IIS with CGI by opening Control Panel> Programs> Turn features On/Off>IIS> WWWS> Application Development Feature> CGI. Once IIS is installed, from within the osTicket Installation folder install PHP Manager.    
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C9B6Bfp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once PHP manager has been successfully installed, open up Windows (C:) and create a folder named PHP. From within the osTicket folder extract file php-7.3.8-nts-Win32-VC15-x86 into the new PHP folder you just created. From within the osTicket folder install VC_redist.x86 and mysql-5.5.62. Be sure to follow prompts and record created username and password on notepad. 
 </p>
 <br />
