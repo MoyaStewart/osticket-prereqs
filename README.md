@@ -55,7 +55,7 @@ Once PHP manager has been successfully installed, open up Windows (C:) and creat
 <img src="https://i.imgur.com/h6doRnX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From within the osTicket Installation folder exttract osTicket-v1.15.8 and copy it into C:\inetpub\wwwroot. From within the "wwwroot" folder rename "upload" folder to "osTicket". Be sure to avoid spelling or spacing mistakes when renaming. Restart IIS server.
+From within the osTicket Installation folder extract osTicket-v1.15.8 and copy it into C:\inetpub\wwwroot. From within the "wwwroot" folder rename "upload" folder to "osTicket". Be sure to avoid spelling or spacing mistakes when renaming. Restart IIS server.
 </p>
 <br />
 
