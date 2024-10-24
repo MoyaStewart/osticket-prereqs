@@ -66,3 +66,27 @@ From within the osTicket Installation folder extract osTicket-v1.15.8 and copy i
 After IIS servers have been restarted, reopen IIS manager under admin if you closed it out previously. From the homepage click Sites->Default Website->osTicket. To the right of the screen you'll load the site by clicking Browse *:80(http). Once loaded notice that some extensions are not enabled. Back in PHP Manager within the IIS Admin enable the following extensions; php_imap.dll, php_intl.dll, and php_opache.dll. Once enabled refresh your browser and you should see all but the last two extensions enabled.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/kNxscmQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now, from (C:) we have to rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.(Make sure its entered correctly!) Next, we'll need to assign permissions for this file. Right click ost-config.php -> Properties -> Security tab -> Advanced -> Disable inheritance (remove all option) -> Add -> Select a principal -> Type everyone in the box -> Check names -> OK. Make sure you click on Full control as well.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/E5P7hy2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finally, from the osTicket Install Folder follow prompts to install HeidiSQL. Fom within HeidiSQL session manager select New -> Username -> Password ( root/root - created during mySQL section) -> Open. From here you'll right click Unnamed -> Create New -> Database -> name it osTicket (exactly).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fAnZX63.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once you have completed the steps above you can finish the install in your browser using the username and passwords previously setup. Congratulations! You did it! osTicket should be installed and ready to use.
+</p>
+<br />
