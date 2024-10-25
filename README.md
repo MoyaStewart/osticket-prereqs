@@ -52,6 +52,14 @@ Once PHP manager has been successfully installed, open up Windows (C:) and creat
 <br />
 
 <p>
+<img src="https://i.imgur.com/FzFycIK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next install the redistributable and accept all defaults. Then install MySQL, select Standard Configuration and then enter root and root as the username and password. This is just for simplicity and you'd likely use a stronger password in real life.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/k509qyf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
